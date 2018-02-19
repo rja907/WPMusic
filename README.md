@@ -10,6 +10,8 @@ Repo workflow:
 
 `Run 'npm run build'.`
 
+`Vendor Caching using CommonsChunkPlugin!`
+
 The application will also be deployed on Multiple platforms.
 
 This will solidify someone's grasp over Webpack.
