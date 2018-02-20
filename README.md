@@ -2,7 +2,7 @@
 
 An app that uses Webpack for Vendor Asset Caching, Vendor Splitting, Code Splitting and Chunk Hashing for Cache Busting.
 
-Repo workflow:
+## Repo workflow:
 
 `Make changes in the webpack.config.js file to bundle js files.`
 
@@ -44,11 +44,21 @@ Repo workflow:
 
 `Make changes in router.js to add code splitting of react routes.`
 
+### Deployment
+
 `To be ready for deployment we add 'NODE_ENV=production' to the "build" script of package.json.`
 
 `To make a production ready build (includes minification etc.), we add '-p' after webpack in the build script.`
 
 `Run 'npm run build'.`
+
+#### Surge
+
+`Run 'npm i -g surge'.`
+
+`Run 'surge -p dist'.`
+
+[Live project here!!](http://frail-trail.surge.sh/#/)
 
 The application will also be deployed on Multiple platforms.
 
