@@ -12,6 +12,16 @@ Repo workflow:
 
 `Vendor Caching using CommonsChunkPlugin!`
 
+`Run 'npm i --save-dev html-webpack-plugin'.`
+
+`Make changes in webpack.config.js.`
+
+`Move index.html to the src directory from the root directory.`
+
+`Remove the script tag of index.html because html-webpack-plugin will do that for us.`
+
+`Run 'npm run build'.`
+
 The application will also be deployed on Multiple platforms.
 
 This will solidify someone's grasp over Webpack.
