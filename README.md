@@ -1,6 +1,6 @@
 # Music
 
-An app that uses Webpack for Vendor Asset Caching, Vendor Splitting, Code Splitting and Chunk Hashing for Cache Busting.
+An app that uses Webpack for Vendor Asset Caching, Vendor Splitting, Code Splitting and Chunk Hashing for Cache Busting and deployment!
 
 ## Repo workflow:
 
