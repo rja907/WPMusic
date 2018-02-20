@@ -60,6 +60,18 @@ An app that uses Webpack for Vendor Asset Caching, Vendor Splitting, Code Splitt
 
 [Live project here!!](http://frail-trail.surge.sh/#/)
 
+#### Github pages
+
+`Run 'git checkout -b gh-pages'.`
+
+`Run 'git subtree push --prefix dist origin gh-pages'.`
+
+`For instant deployment, add a deploy script in package.json.`
+
+`Run 'npm run deploy'.`
+
+[Live project (https) here!](https://rja907.github.io/WPMusic/#/)
+
 The application will also be deployed on Multiple platforms.
 
 This will solidify someone's grasp over Webpack.
