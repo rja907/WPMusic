@@ -42,6 +42,8 @@ Repo workflow:
 
 `Change one file. (I changed index.js from src) to see that the w-d-s takes almost negligible time to serve the new file.`
 
+`Make changes in router.js to add code splitting of react routes.`
+
 The application will also be deployed on Multiple platforms.
 
 This will solidify someone's grasp over Webpack.
