@@ -44,6 +44,12 @@ Repo workflow:
 
 `Make changes in router.js to add code splitting of react routes.`
 
+`To be ready for deployment we add 'NODE_ENV=production' to the "build" script of package.json.`
+
+`To make a production ready build (includes minification etc.), we add '-p' after webpack in the build script.`
+
+`Run 'npm run build'.`
+
 The application will also be deployed on Multiple platforms.
 
 This will solidify someone's grasp over Webpack.
