@@ -22,6 +22,12 @@ Repo workflow:
 
 `Run 'npm run build'.`
 
+`Added chunkhash so that outdated files are not rendered via cache.`
+
+`Now every time we build, we'll find a different hash code. So, the cached version(outdated) will not be loaded.`
+
+`We can check the dist/index.html to see that the updated build files are sourced.`
+
 The application will also be deployed on Multiple platforms.
 
 This will solidify someone's grasp over Webpack.
