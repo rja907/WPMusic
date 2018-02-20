@@ -28,6 +28,12 @@ Repo workflow:
 
 `We can check the dist/index.html to see that the updated build files are sourced.`
 
+`We can see that our build folder looks messy with multiple build files. That needs to change!`
+
+`Run 'npm i --save-dev rimraf'. This will help clean project build files.`
+
+`Add script 'clean' to package.json so that rimraf cleans the dist folder.`
+
 The application will also be deployed on Multiple platforms.
 
 This will solidify someone's grasp over Webpack.
