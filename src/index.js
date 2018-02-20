@@ -8,7 +8,7 @@ import Routes from './router';
 import '../style/materialize.css';
 import '../style/react-range.css';
 import '../style/style.css';
-console.log('Checking for new build via chunk hashing.');
+console.log('Checking webpack-dev-server.');
 const App = () => {
   const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
 

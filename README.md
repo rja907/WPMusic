@@ -34,6 +34,14 @@ Repo workflow:
 
 `Add script 'clean' to package.json so that rimraf cleans the dist folder.`
 
+`Run 'npm i --save-dev webpack-dev-server@2.2.0-rc.0'.`
+
+`Add script 'serve' to package.json so that webpack-dev-server serves files.`
+
+`Run 'npm run serve'.`
+
+`Change one file. (I changed index.js from src) to see that the w-d-s takes almost negligible time to serve the new file.`
+
 The application will also be deployed on Multiple platforms.
 
 This will solidify someone's grasp over Webpack.
